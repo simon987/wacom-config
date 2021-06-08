@@ -24,3 +24,5 @@ xsetwacom --set "Wacom Intuos Pro M Pad pad" Button 9 "key ctrl z"
 xsetwacom --set "Wacom Intuos Pro M Pad pad" Button 10 "key ctrl shift z"
 xsetwacom --set "Wacom Intuos Pro M Pad pad" Button 11 "key shift"
 xsetwacom --set "Wacom Intuos Pro M Pad pad" Button 12 "key ctrl"
+
+systemctl --user stop opentabletdriver
